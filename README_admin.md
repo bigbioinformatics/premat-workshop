@@ -46,6 +46,31 @@ www-port=80
 ```
 13. You should now be able to navigate to the address of your server and log in with the `test_user` credentials. 
 
+# Configuring the R environment
+
+An issue with this is that either users will have to manage system dependencies themselves (which is impossible from RStudio)
+or you will need to do it for them and hope they don't end up needing more later...
+
+We'll try the latter this time around.
+
+To discover dependencies, simply try to install diffbind:
+```
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("DiffBind")
+```
+
+Here are the packages you need to install systemwide for many basic `R` dependencies:
+
+```
+sudo apt install -y libcurl4-openssl-dev
+sudo apt install -y libv8-dev
+sudo apt install -y librsvg2-dev
+sudo apt install -y libxml2-dev
+sudo apt install -y libssl-dev 
+```
+
 
 
 
