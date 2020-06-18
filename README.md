@@ -120,7 +120,7 @@ to commit these changes to GitHub:
 ```
 git add .
 git commit -m "a description of the changes I made"
-git push -u origin master
+git push 
 ```
 
 When you finish your analysis return to the `README.md` file and start documenting
