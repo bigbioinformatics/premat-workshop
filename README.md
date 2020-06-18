@@ -59,10 +59,12 @@ system for coding projects. When you make changes to your code, you will 'commit
 the changes to the `git` repository and then push these changes to GitHub. 
 
 1. Open the 'Terminal' in RStudio:
+
 ![RStudio Server Terminal](images/Terminal.PNG)
+
 2. At this point you should be inside your project directory if you followed 
 the RStudio project directions. Now we initialize this project as a `git`
-repository. Type this command into the terminal and hit <Enter>:
+repository. Type this command into the terminal and hit 'Enter':
 ```
 git init
 ```
