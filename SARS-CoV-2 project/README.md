@@ -78,7 +78,7 @@ command and alignment will not be run again.
     }
 
 MSA creates a ‘consensus sequence’ that represents conservation of
-sequence similarity between our genomes. Consensus sequences contain
+sequence similarity between genomes. Consensus sequences contain
 special characters which are coded based on MSA results. A useful guide
 is found
 [here](https://zhanglab.ccmb.med.umich.edu/FASTA/#:~:text=FASTA%20format%20is%20a%20text,by%20lines%20of%20sequence%20data.).
